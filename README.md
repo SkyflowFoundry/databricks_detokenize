@@ -1,7 +1,8 @@
 # Skyflow for Databricks: Bulk Detokenize UDF
 This repository contains a user-defined function that can be deployed within any Databricks instance in order to bulk detokenize Skyflow tokens in Databricks.
 
-![databricks_dashboard](https://github.com/user-attachments/assets/ac0d7e08-5fed-4a33-a99a-5a087174869c)
+![databricks_dashboard](https://github.com/user-attachments/assets/f81227c5-fbbf-481c-b7dc-516f64ad6114)
+
 
 Note: these examples are not an officially-supported product or recommended for production deployment without further review, testing, and hardening. Use with caution, this is sample code only.
 
