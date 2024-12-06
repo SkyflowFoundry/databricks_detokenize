@@ -1,5 +1,5 @@
 # Skyflow for Databricks: Bulk Detokenize UDF
-This repository contains a user-defined function that can be deployed within any Databricks instance in order to bulk detokenize Skyflow tokens in Databricks.
+This repository contains a user-defined function that can be deployed within any Databricks instance in order to bulk detokenize Skyflow tokens in Databricks. It receives the full tokenized column in bulk, breaks it down into chunks of 25 tokens each, then runs it in a multi-threaded processing before it finally combines back the data before displaying the query result to the user.
 
 ![databricks_dashboard](https://github.com/user-attachments/assets/f81227c5-fbbf-481c-b7dc-516f64ad6114)
 
